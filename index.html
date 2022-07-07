@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sakura Ramen</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(min-width: 901px)" href="css/widescreen.css">
+    <link rel="stylesheet" media="(max-width: 900px)" href="css/smallscreen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Raleway:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Raleway:wght@300&display=swap"
+        rel="stylesheet">
+
+        
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="menubar">
+            <div class="logo">
+                <a href="#"><img src="img/saku.png" height="80px"></a>
+            </div>
+            <div class="nav">                
+                <a href="#menu" id="navmenu">MENU</a>
+                <a href="#location" id="navlocation">LOCATION</a>
+                <a href="#about" id="navabout">ABOUT</a>
+            </div>
+            <div>
+                <a onclick="deu()"><img src="img/deu.png" height="32px"></a>
+                <a onclick="eng()"><img src="img/eng.png" height="32px"></a>
+            </div>
+            <div class="btn">
+                <button type="button"><a href="tel: +49 (0) 176 54564534" id="tel"><img src="img/phone.png"
+                            height="11px"> 0176 54564534</a></button>
+            </div>
+        </div>
+        <div class="headline1">
+            <h1>SAKURA RAMEN</h1>
+            <span class="swhite" id="subheadline">THE BEST RAMEN IN TOWN</span>
+        </div>
+    </div>
+
+    <div class="order">
+        <div class="headline2r">
+            <h2 id="hto">HOW TO ORDER</h2>
+        </div>
+        <div class="nbt">
+            <div class="noodle">
+                <img src="img/bowl_icon.jpg"><br><span id="noodle">Pick<br>Your Noodle</span>
+            </div>
+            <div class="broth">
+                <img src="img/broth_icon.png"><br><span id="broth">Pick<br>Your Broth</span>
+            </div>
+            <div class="topping">
+                <img src="img/eggs_icon.jpg"><br><span id="toppings">Add Your<br>Toppings</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="headline2e">
+            <h2  id="om">OUR MENU</h2>
+        </div>
+        <div class="food1">
+            <div class="fimg">
+                <img src="img/r1.png">
+            </div>
+            <div class="ftab">
+                <table>
+                    <tr>
+                        <th colspan="2">Tonkasu Ramen</th>
+                    </tr>
+                    <tr>
+                        <td class="tdl" id="chicken">CHICKEN</td>
+                        <td class="tdr">11.95€</td>
+                    </tr>
+                    <tr>
+                        <td class="tdl" id="beef">BEEF</td>
+                        <td class="tdr">12.95€</td>
+                    </tr>
+                    <tr>
+                        <td class="tdl" id="shrimp">SHRIMP</td>
+                        <td class="tdr">13.95€</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="food2">
+            <div class="ftab">
+                <table>
+                    <tr>
+                        <th colspan="2">Spicy Miso Ramen</th>
+                    </tr>
+                    <tr>
+                        <td class="tdl" id="chicken2">CHICKEN</td>
+                        <td class="tdr">11.95€</td>
+                    </tr>
+                    <tr>
+                        <td class="tdl" id="beef2">BEEF</td>
+                        <td class="tdr">12.95€</td>
+                    </tr>
+                    <tr>
+                        <td class="tdl" id="shrimp2">SHRIMP</td>
+                        <td class="tdr">13.95€</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="fimg">
+                <img src="img/r2.png">
+            </div>
+        </div>
+        <div class="food1">
+            <div class="fimg">
+                <img src="img/r3.png">
+            </div>
+            <div class="ftab">
+                <table>
+                    <tr>
+                        <th colspan="2">Shio Ramen</th>
+                    </tr>
+                    <tr>
+                        <td class="tdl" id="chicken3">CHICKEN</td>
+                        <td class="tdr">11.95€</td>
+                    </tr>
+                    <tr>
+                        <td class="tdl" id="beef3">BEEF</td>
+                        <td class="tdr">12.95€</td>
+                    </tr>
+                    <tr>
+                        <td class="tdl" id="shrimp3">SHRIMP</td>
+                        <td class="tdr">13.95€</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="location" id="location">
+        <div class="headline2r">
+            <h2  id="fua">FIND US AT</h2>
+            <span class="sblack"><img src="img/lo.png" height="20px"> Kapuzinerstra&szlig;e 31, M&uuml;nchen, BY
+                80337</span>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.2081517665038!2d11.561203299999999!3d48.125509099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf44d01affc5%3A0xe7a07e0710be63e8!2sKapuzinerstra%C3%9Fe%2031%2C%2080337%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1649457213630!5m2!1sde!2sde"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="logoname">
+            <img src="img/saklogo.png">
+        </div>
+        <div class="rights">
+            Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a>
+            from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/" title="Facebook" target="_blank"><img src="img/fb.png"
+                    height="50px"></a>
+            <a href="https://www.instagram.com/" title="Instagram" target="_blank"><img src="img/ins.png"
+                    height="50px"></a>
+            <a href="https://www.tripadvisor.de/" title="Tripad" target="_blank"><img src="img/tripad.png"
+                    height="50px"></a>
+        </div>
+    </div>
+    
+</body>
+<script>
+    function deu() {
+        document.getElementById('navmenu').innerHTML = 'MENÜ';
+        document.getElementById('navlocation').innerHTML = 'STANDORT';
+        document.getElementById('navabout').innerHTML = 'ÜBER';
+        document.getElementById('subheadline').innerHTML = 'Der beste Ramen der Stadt';
+        document.getElementById('hto').innerHTML = 'Wie kann ich bestellen?';
+        document.getElementById('noodle').innerHTML = 'Wähle<br>eine Nudelsorte';
+        document.getElementById('broth').innerHTML = 'Wähle<br>die Brühe';
+        document.getElementById('toppings').innerHTML = 'Füge deinen<br>Belag hinzu';
+        document.getElementById('om').innerHTML = 'Unser Menü';
+        document.getElementById('chicken').innerHTML = 'Hänchen';
+        document.getElementById('beef').innerHTML = 'Rind';
+        document.getElementById('shrimp').innerHTML = 'Schrimps';
+        document.getElementById('chicken2').innerHTML = 'Hänchen';
+        document.getElementById('beef2').innerHTML = 'Rind';
+        document.getElementById('shrimp2').innerHTML = 'Schrimps';
+        document.getElementById('chicken3').innerHTML = 'Hänchen';
+        document.getElementById('beef3').innerHTML = 'Rind';
+        document.getElementById('shrimp3').innerHTML = 'Schrimps';
+        document.getElementById('fua').innerHTML = 'So findest du uns';
+    }
+    function eng() {
+        document.getElementById('navmenu').innerHTML = 'MENU';
+        document.getElementById('navlocation').innerHTML = 'LOCATION';
+        document.getElementById('navabout').innerHTML = 'ABOUT';
+        document.getElementById('subheadline').innerHTML = 'THE BEST RAMEN IN TOWN';
+        document.getElementById('hto').innerHTML = 'HOW TO ORDER';
+        document.getElementById('noodle').innerHTML = 'Pick<br>Your Noodle';
+        document.getElementById('broth').innerHTML = 'Pick<br>Your Broth';
+        document.getElementById('toppings').innerHTML = 'Add Your<br>Toppings';
+        document.getElementById('om').innerHTML = 'OUR MENU';
+        document.getElementById('chicken').innerHTML = 'CHICKEN';
+        document.getElementById('beef').innerHTML = 'BEEF';
+        document.getElementById('shrimp').innerHTML = 'SHRIMP';
+        document.getElementById('chicken2').innerHTML = 'CHICKEN';
+        document.getElementById('beef2').innerHTML = 'BEEF';
+        document.getElementById('shrimp2').innerHTML = 'SHRIMP';
+        document.getElementById('chicken3').innerHTML = 'CHICKEN';
+        document.getElementById('beef3').innerHTML = 'BEEF';
+        document.getElementById('shrimp3').innerHTML = 'SHRIMP';
+        document.getElementById('fua').innerHTML = 'FIND US AT';
+    }
+</script>
+
+</html>
